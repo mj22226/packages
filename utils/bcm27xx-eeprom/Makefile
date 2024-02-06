@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bcm27xx-eeprom
-PKG_VERSION:=v.2024.01.05-2712
-PKG_RELEASE:=2
+PKG_VERSION:=v.2024.02.05-2712
+PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/raspberrypi/rpi-eeprom/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=ae1d9f10e4383ee39b291b4b3be1be583f6f32f806f65a1431da65ca4ccffe39
+PKG_SOURCE_URL:=https://codeload.github.com/mj22226/rpi-eeprom/tar.gz/$(PKG_VERSION)?
+PKG_HASH:=b2ddf2398ee29708e60b46ff142f027c9325e76b794682bb71a5fa2e971c049b
 
 PKG_LICENSE:=BSD-3-Clause Custom
 PKG_LICENSE_FILES:=LICENSE

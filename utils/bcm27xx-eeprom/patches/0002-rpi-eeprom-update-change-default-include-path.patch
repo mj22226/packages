@@ -24,7 +24,7 @@ Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
  fi
  
  LOCAL_MODE=0
-@@ -423,7 +423,7 @@ checkDependencies() {
+@@ -427,7 +427,7 @@ checkDependencies() {
        echo "Run with -h for more information."
        echo
        echo "To enable flashrom programming of the EEPROM"

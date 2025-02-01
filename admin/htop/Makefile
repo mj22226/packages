@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=htop
-PKG_VERSION:=3.3.0
-PKG_RELEASE:=2
+PKG_VERSION:=3.4.0
+PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/htop-dev/htop/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=1e5cc328eee2bd1acff89f860e3179ea24b85df3ac483433f92a29977b14b045
+PKG_SOURCE_URL:=https://codeload.github.com/mj22226/htop/tar.gz/$(PKG_VERSION)?
+PKG_HASH:=a580b7e67e897c584582da619b7b2bc8f1d97393d600db071c048e20b8b3889b
 
 PKG_LICENSE:=GPL-2.0-or-later
 PKG_LICENSE_FILES:=COPYING

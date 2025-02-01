@@ -1,0 +1,23 @@
+--- a/Settings.c
++++ b/Settings.c
+@@ -803,9 +803,9 @@ Settings* Settings_new(const Machine* ho
+    this->detailedCPUTime = false;
+    this->countCPUsFromOne = false;
+    this->showCPUUsage = true;
+-   this->showCPUFrequency = false;
++   this->showCPUFrequency = true;
+    #ifdef BUILD_WITH_CPU_TEMP
+-   this->showCPUTemperature = false;
++   this->showCPUTemperature = true;
+    this->degreeFahrenheit = false;
+    #endif
+    this->showCachedMemory = true;
+@@ -860,7 +860,7 @@ Settings* Settings_new(const Machine* ho
+    if (!realpath(this->initialFilename, this->filename))
+       free_and_xStrdup(&this->filename, this->initialFilename);
+ 
+-   this->colorScheme = 0;
++   this->colorScheme = 6;
+ #ifdef HAVE_GETMOUSE
+    this->enableMouse = true;
+ #endif

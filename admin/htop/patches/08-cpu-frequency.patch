@@ -1,0 +1,14 @@
+--- a/Settings.c
++++ b/Settings.c
+@@ -935,9 +935,9 @@ Settings* Settings_new(const Machine* ho
+    this->showCPUSMTLabels = false;
+    this->showCPUUsage = true;
+    this->stickyFollow = true;
+-   this->showCPUFrequency = false;
++   this->showCPUFrequency = true;
+    #ifdef BUILD_WITH_CPU_TEMP
+-   this->showCPUTemperature = false;
++   this->showCPUTemperature = true;
+    this->degreeFahrenheit = false;
+    #endif
+    this->showCachedMemory = true;
